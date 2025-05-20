@@ -1,0 +1,12 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>principal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-split-pane contentId="principal">
+    <app-menu></app-menu>
+    <ion-router-outlet id="principal"></ion-router-outlet>
+  </ion-split-pane>
+</ion-content>
